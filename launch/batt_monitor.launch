@@ -1,0 +1,4 @@
+<launch>
+    <!-- Launch custom ADC publisher node for battery voltage -->
+    <node pkg="batt_monitor_publisher" type="batt_monitor.py" name="batt_monitor_pub_node" output="screen" />
+</launch>
